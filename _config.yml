@@ -1,28 +1,26 @@
----
-title: Jekyll Materialize
-email: your-email@domain.com
-author: hugocarreira
-author_github: hugocarreira
-description: |
-  a simple theme for Jekyll using Materializecss
-baseurl: "/"
-url: http://hugocarreira.github.io/jekyll-materializecss
-paginate: 12
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Nikhil Jain
+tagline:          'A '
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
 github:
-  user: hugocarreira
-  repository: jekyll-materializecss
-  url: http://hugocarreira.github.io/jekyll-materializecss/
-  status: true
-home_bgfile: bg.jpg
-sass:
-  sass_dir: assets/css
-  style: compressed
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-highlighter: rouge
-gems:
-- jekyll-paginate
-exclude:
-- vendor
+  repo:           https://github.com/niksysweety
